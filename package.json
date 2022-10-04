@@ -1,0 +1,18 @@
+{
+  "name": "desafio_cssavanzado4_sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch assets/sass/main.scss assets/css/main.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.1"
+  },
+  "devDependencies": {
+    "sass": "^1.55.0"
+  }
+}

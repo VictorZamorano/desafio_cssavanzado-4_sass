@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,800&family=Silkscreen&family=Source+Sans+Pro&display=swap');
+
+$font-family-base: 'Silkscreen', cursive;
+
+// colors
+$primary: #0d6efd;
+$secondary: #6c757d;
+$success: #198754;
+$info: #0dcaf0;
+$warning: #ffc107;
+$danger: #dc3545;
+$light: #f8f9fa;
+$dark: #212529;
+$purple: #cf649a;
+
+$theme-colors: (
+	"primary": $primary,
+	"secondary": $secondary,
+	"success": $success,
+	"info": $info,
+	"warning": $warning,
+	"danger": $danger,
+	"light": $light,
+	"dark": $dark,
+    "purple": $purple,
+
+);
+// end colors
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+.card{
+    @extend .bg-dark;
+    @extend .text-light;
+    width: 55vh;
+    & img{
+        max-width: 450px;
+    }
+}
+
+.btn-purple{
+    @extend .text-light
+}
+
