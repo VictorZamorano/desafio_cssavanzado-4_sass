@@ -33,7 +33,7 @@ $theme-colors: (
     @extend .bg-dark;
     @extend .text-light;
     width: 55vh;
-    & img{
+    img{
         max-width: 450px;
     }
 }
